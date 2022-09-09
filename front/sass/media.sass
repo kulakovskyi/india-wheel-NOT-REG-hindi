@@ -113,6 +113,7 @@
         left: -300px
         font-size: 70px
         line-height: 78px
+        bottom: 200px
       &-wheel
         transform: scale(.8)
       &-woman
@@ -159,7 +160,7 @@
     &__main
       &-txt
         left: -280px
-        bottom: 210px
+        bottom: 170px
       &-woman
         right: -360px
     .chip-2
@@ -261,7 +262,7 @@
         right: -390px
       &-bubble
         top: 30px
-        right: -43px
+        right: -33px
     &__overlay
       &-firstWoman,
       &-secondWoman
@@ -277,7 +278,7 @@
         top: -20px
         right: -25px
       &-txt
-        bottom: 200px
+        bottom: 150px
       &-wheel
         transform: scale(0.7)
       &-woman
@@ -317,7 +318,7 @@
       &-wheel
         transform: scale(0.65)
       &-txt
-        bottom: 180px
+        bottom: 130px
       &-bubble
         transform: scale(0.7)
       &-woman
@@ -354,7 +355,7 @@
         font-size: 55px
         line-height: 62px
         left: -175px
-        bottom: 200px
+        bottom: 160px
       &-bubble
         top: -20px
         right: -25px
@@ -433,7 +434,7 @@
         right: -180px
       &-txt
         left: -145px
-        bottom: 160px
+        bottom: 130px
     &__chip
       transform: scale(0.55)
     .chip-1
@@ -518,8 +519,8 @@
       &-woman
         right: -170px
       &-txt
-        left: -95px
-        bottom: 190px
+        left: -77px
+        bottom: 175px
     &__overlay
       &-firstWoman,
       &-secondWoman
@@ -563,6 +564,11 @@
       &-woman
         right: -180px
 
+@media screen and (max-width: 1010px)
+  .bonus__main-txt
+    left: -63px
+
+
 @media screen and (max-width: 1024px) and (orientation: portrait) and (min-width: 551px)
   .bonus
     &__main
@@ -591,7 +597,7 @@
         line-height: 78px
         br
           &:first-of-type
-            display: none
+            display: block
           &:last-of-type
             display: block
       &-wheel
@@ -714,6 +720,14 @@
     .chip-5
       right: 170px
 
+@media screen and (max-width: 970px) and (max-height: 768px)
+  .bonus
+    &__main
+      &-txt
+        left: 13px
+        font-size: 40px
+        line-height: 48px
+
 @media screen and (max-width: 834px) and (orientation: portrait)
   .bonus
     &__main
@@ -729,16 +743,16 @@
         line-height: 68px
         top: 150px
     &__chip
-      transform: scale(0.7)
+      transform: scale(0.7) !important
     .chip-1
       left: -30px
       bottom: 15px
     .chip-2
-      transform: scale(0.8) rotate(80deg)
+      transform: scale(0.8) rotate(80deg) !important
       left: -55px
       top: 400px
     .chip-4
-      transform: scale(0.8) rotate(20deg)
+      transform: scale(0.8) rotate(20deg) !important
       top: 280px
       left: 20px
     .chip-5
@@ -988,7 +1002,7 @@
       &-rules
         font-size: 12px
     &__chip
-      transform: scale(0.5)
+      transform: scale(0.5) !important
     .chip-1
       left: -50px
       bottom: -45px
@@ -999,9 +1013,9 @@
       left: -45px
       top: 150px
     .chip-4
-      transform: scale(0.6) rotate(0)
+      transform: scale(0.6) rotate(0) !important
       top: -30px
-      left: 40px
+      left: 60px
     .chip-5
       right: -60px
       bottom: -50px
@@ -1239,7 +1253,7 @@
     .chip-4
       transform: scale(0.5) rotate(0)
       top: -45px
-      left: 10px
+      left: 39px
     .chip-5
       right: -85px
       bottom: -60px
@@ -1487,13 +1501,14 @@
       &-wheel
         transform: scale(0.33)
 
-@media screen and (max-width: 760px) and (orientation: landscape) and (max-height: 430px)
+@media screen and (max-width: 786px) and (orientation: landscape) and (max-height: 430px)
   .bonus
     &__main
       &-txt
         font-size: 35px
         line-height: 40px
       &-wheel
+        margin-bottom: 0
         &-wrap
           transform: translateX(-110px)
     .chip-4
@@ -1603,7 +1618,7 @@
     &__main
       &-wheel
         &-wrap
-          transform: translateX(-430px)
+          transform: translateX(-330px)
     &__overlay
       &-firstWoman,
       &-secondWoman
