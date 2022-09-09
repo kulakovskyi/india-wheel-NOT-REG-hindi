@@ -70,7 +70,7 @@ playBtn.addEventListener('click', () => {
 
     if (triesCounter === 0) {
         runFirstRotation()
-        //audioMain.play()
+        audioMain.play()
 
     } else {
         runSecondRotation()
